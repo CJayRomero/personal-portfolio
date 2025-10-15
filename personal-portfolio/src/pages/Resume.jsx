@@ -15,7 +15,7 @@ export default function Resume() {
     
       <h1>Resume</h1>
       <p>Download my professional resume below:</p>
-      <a href="/resume.pdf" download className="btn">Download Resume (PDF)</a>
+      <a href="/Resume.pdf" download className="btn">Download Resume (PDF)</a>
     </section>}
 </motion.section>
 
