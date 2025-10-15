@@ -3,7 +3,7 @@
   --dark-blue: #2563eb;
   --light-bg: #f9fafb;
   --dark-bg: #0f172a;
-  --light-text: #1e293b;
+  --light-text: #363333;
   --dark-text: #e2e8f0;
   --card-bg-light: #ffffff;
   --card-bg-dark: #1e293b;
@@ -574,7 +574,7 @@ button {
 
 /* Default (light mode) */
 [data-theme="light"] {
-  background: linear-gradient(135deg, #e0f2ff, #93c5fd, #bb3bf6);
+  background: linear-gradient(135deg, #9ca6ff, #accaee, #9d63e0);
   background-size: 400% 400%;
   animation: gradientShift 12s ease infinite;
   color: var(--light-text);
@@ -611,10 +611,10 @@ html, body {
 =========================== */
 
 .header {
-  background: rgba(255, 255, 255, 0.1); /* light transparent layer */
+  background: rgba(155, 187, 255, 0.747); /* light transparent layer */
   backdrop-filter: blur(12px) saturate(180%); /* frosted-glass effect */
   -webkit-backdrop-filter: blur(12px) saturate(180%);
-  color: rgb(151, 184, 255);
+  color: rgb(157, 188, 255);
   padding: 1rem 2rem;
   display: flex;
   justify-content: space-between;
@@ -628,11 +628,93 @@ html, body {
 
 /* Adjust colors per theme */
 [data-theme="light"] .header {
-  background: rgba(255, 255, 255, 0.6);
+  background: rgba(152, 200, 255, 0.6);
   color: var(--light-text);
 }
 
 [data-theme="dark"] .header {
   background: rgba(15, 23, 42, 0.6);
   color: var(--dark-text);
+}
+
+/* ===========================
+   CONTACT PAGE
+=========================== */
+
+.contact-section {
+  text-align: center;
+  padding: 3rem 1rem;
+}
+
+.contact-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--blue);
+  margin-bottom: 0.3rem;
+}
+
+.contact-subtitle {
+  color: rgb(0, 0, 0);
+  margin-bottom: 1.5rem;
+}
+
+.contact-list {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 2rem;
+  color: var(--light-text);
+}
+
+.contact-list li {
+  margin: 0.5rem 0;
+  font-size: 1rem;
+}
+
+.contact-list a {
+  color: var(--blue);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.contact-list a:hover {
+  color: var(--dark-blue);
+  text-decoration: underline;
+}
+
+/* Connect With Me */
+.connect-title {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: var(--blue);
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.social-icon {
+  color: white;
+  background: var(--blue);
+  padding: 0.6rem;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.social-icon:hover {
+  background: var(--dark-blue);
+  box-shadow: 0 0 12px rgba(59, 130, 246, 0.5);
+}
+
+/* Themed icons for light mode */
+[data-theme="light"] .social-icon {
+  color: var(--light-text);
+  background: rgba(0, 0, 0, 0.1);
+}
+[data-theme="light"] .social-icon:hover {
+  background: var(--blue);
+  color: white;
 }
