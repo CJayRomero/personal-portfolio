@@ -65,9 +65,8 @@ npm install
 
 # Start the development server
 npm run dev
-
-#Live Demo
-
+----
+###Live Demo
 
 You can access the live version of your portfolio once it's deployed:
 
