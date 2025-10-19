@@ -72,9 +72,9 @@ npm run dev
 You can access the live version of your portfolio once it's deployed:
 
 **GitHub Pages URL:**  
-[link text](https://cjayromero.github.io/personal-portfolio/)
+[Personal Portfolio Live Site](https://cjayromero.github.io/personal-portfolio/)
 
 **Demo Recording:**  
-(https://drive.google.com/drive/folders/1sQL8u0doir2cCOYta4KnWeZhTYApl1Pp?usp=sharing)
+[Watch on Google Drive](https://drive.google.com/drive/folders/1sQL8u0doir2cCOYta4KnWeZhTYApl1Pp?usp=sharing)
 
 ---
